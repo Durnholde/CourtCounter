@@ -24,11 +24,17 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
+    /**
+     * Displays the given score for Team B.
+     */
     public void displayForTeamB(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(score));
     }
 
+    /**
+     * Implementation of point buttons.
+     */
     public void button3A(View view)
     {
         scoreTeamA = scoreTeamA + 3;
@@ -62,6 +68,17 @@ public class MainActivity extends AppCompatActivity {
     public void button1B(View view)
     {
         scoreTeamB += 1;
+        displayForTeamB(scoreTeamB);
+    }
+
+    /**
+     * Reset button.
+     */
+    void resetButton(View view)
+    {
+        scoreTeamA = 0;
+        scoreTeamB = 0;
+        displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
 }

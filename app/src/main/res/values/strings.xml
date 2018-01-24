@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CourtCounter</string>
+    <string name="team_name_font">sans-serif-medium</string>
+    <string name="team_b_name">Team B</string>
+    <string name="team_a_name">Team A</string>
+    <string name="button_3_text">+3 points</string>
+    <string name="button_2_text">+2 points</string>
+    <string name="button_1_text">Free throw</string>
+    <string name="score_text_font">sans-serif-light</string>
 </resources>

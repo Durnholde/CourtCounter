@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="button_margin">8dp</dimen>
+    <dimen name="text_size_team">14sp</dimen>
+    <dimen name="score_text_sice">56sp</dimen>
+    <dimen name="team_view_horizontal_padding">24dp</dimen>
+    <dimen name="team_score_vertical_margin">16dp</dimen>
+    <dimen name="relative_layout_padding_top">16dp</dimen>
+    <dimen name="relative_layout_padding_bottom">24dp</dimen>
 </resources>
